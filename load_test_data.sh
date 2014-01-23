@@ -71,7 +71,7 @@ curl -XPUT 'http://localhost:9200/us/tweet/9?pretty=1' -d '
 {
    "date" : "2013-09-19",
    "name" : "John Smith",
-   "tweet" : "Geo-location facets are really cool",
+   "tweet" : "Geo-location aggregations are really cool",
    "user_id" : 2
 }
 '
