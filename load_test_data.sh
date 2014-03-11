@@ -27,7 +27,7 @@ curl -XPUT 'http://localhost:9200/us/tweet/4?pretty=1' -d '
 {
    "date" : "2014-09-14",
    "name" : "John Smith",
-   "tweet" : "However did I manage before Elasticsearch?",
+   "tweet" : "@mary it is not just text, it does everything",
    "user_id" : 1
 }
 '
@@ -36,7 +36,7 @@ curl -XPUT 'http://localhost:9200/gb/tweet/5?pretty=1' -d '
 {
    "date" : "2014-09-15",
    "name" : "Mary Jones",
-   "tweet" : "@mary it is not just text, it does everything",
+   "tweet" : "However did I manage before Elasticsearch?",
    "user_id" : 2
 }
 '
