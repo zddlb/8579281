@@ -80,7 +80,7 @@ curl -XPUT 'http://localhost:9200/us/tweet/10?pretty=1' -d '
 {
    "date" : "2014-09-20",
    "name" : "John Smith",
-   "tweet" : "ElasticSearch surely is one of the hottest new NoSQL products",
+   "tweet" : "Elasticsearch surely is one of the hottest new NoSQL products",
    "user_id" : 1
 }
 '
@@ -98,7 +98,7 @@ curl -XPUT 'http://localhost:9200/us/tweet/12?pretty=1' -d '
 {
    "date" : "2014-09-22",
    "name" : "John Smith",
-   "tweet" : "ElasticSearch and I have left the honeymoon stage, and I still love her.",
+   "tweet" : "Elasticsearch and I have left the honeymoon stage, and I still love her.",
    "user_id" : 1
 }
 '
